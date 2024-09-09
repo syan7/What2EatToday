@@ -3,9 +3,12 @@ package com.syan.application;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+/**
+ *
+ */
 @SpringBootApplication
-public class MyRecipeApplication {
+public class SpringbootMyRecipeApplication {
     public static void main(String[] args) {
-        SpringApplication.run(MyRecipeApplication.class, args);
+        SpringApplication.run(SpringbootMyRecipeApplication.class, args);
     }
 }
