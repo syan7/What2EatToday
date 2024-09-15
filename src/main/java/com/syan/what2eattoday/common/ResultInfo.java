@@ -1,6 +1,12 @@
-package com.syan.common.entity;
+package com.syan.what2eattoday.common;
 
 import lombok.Data;
+/**
+ * @author : syan
+ * @date : 2024/9/15
+ * @comment : 返回封装类
+ */
+
 
 @Data
 public class ResultInfo {
@@ -13,7 +19,7 @@ public class ResultInfo {
 
     private boolean success;
 
-    private final static Integer SUCCESS_CODE = 200;
+    private static final Integer SUCCESS_CODE = 200;
 
 
 
@@ -30,3 +36,4 @@ public class ResultInfo {
         return new ResultInfo(success, SUCCESS_CODE, msg, data);
     }
 }
+

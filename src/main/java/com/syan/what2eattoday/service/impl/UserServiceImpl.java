@@ -1,10 +1,15 @@
-package com.syan.user.service.impl;
+package com.syan.what2eattoday.service.impl;
 
-import com.syan.common.entity.ResultInfo;
-import com.syan.user.mapper.UserMapper;
-import com.syan.user.service.UserService;
+import com.syan.what2eattoday.mapper.UserMapper;
+import com.syan.what2eattoday.service.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
+
+/**
+ * @author : syan
+ * @date : 2024/9/15
+ * @comment :
+ */
 
 @Service
 @RequiredArgsConstructor

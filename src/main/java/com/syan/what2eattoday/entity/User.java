@@ -1,9 +1,16 @@
-package com.syan.user.entity;
+package com.syan.what2eattoday.entity;
 
 
 
 import lombok.Data;
 import javax.persistence.Column;
+
+/**
+ * @author : syan
+ * @date : 2024/9/15
+ * @comment : 用户表
+ */
+
 
 @Data
 public class User {
